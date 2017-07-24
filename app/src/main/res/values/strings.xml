@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">mitsAPP</string>
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_password">Passwort (optional)</string>
+    <string name="action_sign_in">Einloggen</string>
+    <string name="action_sign_in_short">Einloggen</string>
+    <string name="error_incorrect_credentials">Falsche Benutzerdaten eingegeben</string>
+    <string name="error_field_required">Dieses Feld muss gefüllt werden</string>
+    <string name="title_activity_ingredients_list">IngredientsListActivity</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="critLabel">Krit. Bestand</string>
+    <string name="amountLabel">Bestand</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="newIngName">Bezeichnung</string>
+    <string name="newIngAmount">Menge</string>
+    <string name="newIngQuantityUnit">Mengeneinheit</string>
+    <string-array name="spinner_newIngQuantityUnit">
+        l,kg,ml,g,flaschen,stueck, tonne
+        <item>l</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>flaschen</item>
+        <item>stueck</item>
+        <item>tonne</item>
+    </string-array>
+    <string name="newIngActionBar">Neue Zutat</string>
+    <string name="ingListActionbar">Zutatenliste</string>
+    <string name="addNewIng">Hinzufügen</string>
+    <string name="newIngCritAmount">Kritische Menge</string>
+    <string name="quantityUnitLabel">Einheit:</string>
+    <string name="onBackPressedCloseToast">Nochmal drücken um die App zu schließen</string>
+    <string name="logOff">Abmelden</string>
+    <string name="onBackPressedLogOffToast">Nochmal drücken um Benutzer zu wechseln</string>
+    <string name="error_communicating_w_server">Fehler bei der Kommunikation mit dem Server</string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/cardview_default_elevation"
+    android:paddingLeft="@dimen/cardview_default_elevation"
+    android:paddingRight="@dimen/cardview_default_elevation"
+    android:paddingTop="@dimen/cardview_default_elevation">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="8"
+            android:orientation="horizontal"
+            android:rowCount="2">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:contentDescription="@string/app_name"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/quantityUnitLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:text="@string/quantityUnitLabel"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/quantityUnitTextView"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:paddingLeft="5dp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/ingNameTextView"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/critMinusButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_column="2"
+                android:layout_row="1"
+                android:text="@string/minus"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/critAmountTextView"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_row="1"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/critPlusButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_column="4"
+                android:layout_row="1"
+                android:text="@string/plus"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/ingMinusButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_column="5"
+                android:layout_row="1"
+                android:text="@string/minus" />
+
+            <TextView
+                android:id="@+id/ingAmountTextView"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_column="6"
+                android:layout_row="1"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/ingPlusButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_column="7"
+                android:layout_row="1"
+                android:text="@string/plus" />
+
+            <TextView
+                android:id="@+id/critLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_columnSpan="3"
+                android:layout_row="0"
+                android:paddingLeft="13dp"
+                android:text="@string/critLabel"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/amountLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:layout_columnSpan="3"
+                android:layout_row="0"
+                android:paddingLeft="30dp"
+                android:text="@string/amountLabel"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/idTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="7"
+                android:layout_row="0"
+                android:visibility="invisible" />
+        </GridLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
